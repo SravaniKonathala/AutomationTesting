@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="driverType" value="chrome"></parameter>
+    <parameter name="url" value="http://automationpractice.com/index.php"></parameter>
+    <parameter name="validEmail" value="sravani@gmail.com"></parameter>
+    <parameter name="userName" value="sravani"></parameter>
+    <parameter name="loginEmail" value="sravani081188@gmail.com"></parameter>
+    <parameter name="password" value="happe123"></parameter>
+    <parameter name="quantityCount" value="2"></parameter>
+    <parameter name="size" value="L"></parameter>
+    <test verbose="2" preserve-order="true" name="UserRegistrationAndProductPurchase">
+        <classes>
+            <class name="com.motorola.junit.testcases.UserRegistrationAndProductPurchase">
+                <methods>
+                    <include name="registerNewUser"/>
+                    <include name="errorValidationOnInvalidEmailRegistration"/>
+                    <include name="validateErrorMsgForMandatoryFields"/>
+                    <include name="verifyErrorMsgForIncorrectValues"/>
+                    <include name="automateSearchProductFunctionality"/>
+                    <include name="automateBuyProduct"/>
+                    <include name="wishListWorksAfterLogin"/>
+                    <include name="addProductToWishListWithSignIn"/>
+                    <include name="verifyTotalPriceOnQuantityUpdate"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
