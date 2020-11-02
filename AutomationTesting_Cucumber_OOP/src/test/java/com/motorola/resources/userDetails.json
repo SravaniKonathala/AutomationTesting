@@ -1,0 +1,40 @@
+[
+  {
+    "sravani": {
+      "title": "Mrs",
+      "firstName": "Sravani",
+      "lastName": "Kandregula",
+      "email": "sravani081188@gmail.com",
+      "password": "happe123",
+      "dob": "18-11-1989",
+      "companyName": "HappyMagic",
+      "address": "High Road, Kansas",
+      "city": "Texas",
+      "state": "Kansas",
+      "postCode" : "56006",
+      "country": "United States",
+      "mobile": "07731931925",
+      "aliasAddress": "high road, Kansas, USA"
+    },
+    "happe": {
+      "title": "Mrs",
+      "firstName": "Happe",
+      "lastName": "Kandregula",
+      "email": "happe@gmail.com",
+      "password": "happe123",
+      "DOB": "18-11-1989",
+      "companyName": "HappyMagic",
+      "address": "High Road, Texas",
+      "city": "Texas",
+      "state": "Texas",
+      "postCode" : "56006",
+      "country": "United States",
+      "mobile": "07731931925",
+      "aliasAddress": "high road, Texas, USA"
+    }
+  }
+]
+
+
+
+
